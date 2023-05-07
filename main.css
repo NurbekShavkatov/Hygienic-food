@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.hygienic_food{
+    display: flex;
+    margin: 20px auto;
+    gap: 30px;
+    position: relative;
+}
+.color_scheme{
+    flex-direction: column;
+}
+.general{
+    width: 100px;
+    height: 100px;
+}
+.general:hover{
+    border: 5px solid blue;
+}
+.flyer{
+    width: 1080px;
+    height: 1080px;
+    background-image: url(./images/flyer.png);
+    background-repeat: no-repeat;
+}
+.foodpanda{
+    margin-top: 24px;
+    margin-left: 458px;
+}
+.percent{
+    position: absolute;
+    top: 152px;
+    left: 553px;
+    width: 188px;
+    height: 85px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70.6092px;
+    line-height: 85px; 
+    color: #000000;
+}
+.hygienic{
+    position: absolute;
+    top: 221px;
+    left: 391px;
+    width: 693px;
+    height: 171px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 141.609px;
+    line-height: 171px;  
+    color: #000000;
+}
+.food{
+    position: absolute;
+    top: 376px;
+    left: 547px;
+    width: 261px;
+    height: 110px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90.6092px;
+    line-height: 110px;
+    color: #000000;  
+}
+.back{
+    position: absolute;
+    top: 400px;
+    left: 778px;
+    width: 310px;
+    height: 310px;
+    border-radius: 155px;
+    background-color: white;
+}
+.back_in{
+    position: absolute;
+    left: 80px;
+    top: 70px;
+}
+.two{
+    display: flex;
+}
+.up_to{
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+    font-weight: 700; 
+    color: chocolate; 
+    font-size: 20px; 
+}
+.percent30{
+    position: absolute;
+    top: 30px;
+    color: brown;
+    font-size: 100px;
+    font-weight: bold;
+}
+.off{
+   position: absolute;
+   left: 110px;
+   top: 50px;
+    color: chocolate; 
+    font-size: 30px;
+    font-weight: 700; 
+}
+.order{
+    width: 200px;
+    position: absolute;
+    left: 10px;
+    top: 130px;
+    font-size: 30px;
+}
+.border_order{
+    position: absolute;
+    top: 552px;
+    left: -284px;
+    width: 350px;
+    height: 80px;
+    border-radius: 30px 30px;
+    background-color: brown;
+}
+.order_now{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: brown;
+    border: 0;
+    padding: 20px 60px;
+    background-color: transparent;
+}
